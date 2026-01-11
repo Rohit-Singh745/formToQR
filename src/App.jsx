@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { QRCodeCanvas } from 'qrcode.react'
 import './App.css'
 
+// Form to QR code converter application
 function App() {
   const [formData, setFormData] = useState({
     name: '',
